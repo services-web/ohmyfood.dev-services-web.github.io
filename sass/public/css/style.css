@@ -1,0 +1,243 @@
+.LogoHead {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 10px 5px 5px #cecece;
+  padding: 15px;
+}
+.LogoHead img {
+  width: 170px;
+  height: auto;
+}
+
+body {
+  background-color: #dadada;
+}
+
+/*   Boutons fonctionnement   */
+.btn--fonctionnement {
+  display: flex;
+  background-color: #eeeeee;
+  max-width: 500px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  height: 70px;
+  box-shadow: 5px 5px 10px #dadada;
+}
+.btn--fonctionnement:hover {
+  background-color: rgba(255, 121, 218, 0.2);
+}
+
+span.un {
+  position: absolute;
+  color: white;
+  margin-top: 18px;
+  margin-left: -10px;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: -15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: x-large;
+  background-color: #9356DC;
+  border-radius: 20px;
+}
+
+span.logobutton {
+  font-size: x-large;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textbutton {
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LogoHeart {
+  font-size: x-large;
+  padding-right: 29px;
+}
+.LogoHeart :hover {
+  content: "\f004";
+  font-weight: bold;
+  background: linear-gradient(120deg, #FF79DA 0%, #9356DC 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 1s ease-out;
+}
+
+/*  RESERVATION */
+.BlockReservation {
+  background-color: #f3f3f3;
+  text-align: center;
+}
+.BlockReservation button {
+  height: 60px;
+  width: auto;
+  color: white;
+  font-size: x-large;
+  border-radius: 40px;
+  box-shadow: 5px 5px 5px #cecece;
+  background: linear-gradient(#9356DC, #FF79DA);
+}
+
+/*  FONCTIONNEMENT  */
+.BlockFonctionnement {
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  background-color: red;
+}
+.BlockFonctionnement a {
+  text-decoration: none;
+  color: black;
+}
+
+/*     RESTAURANT */
+.blockrestaurants {
+  padding-top: 30px;
+  background-color: #f3f3f3;
+}
+.blockrestaurants h1 {
+  padding: 20px;
+}
+
+.blockImgRestaurants {
+  margin: 20px;
+  border-radius: 20px;
+  background-color: white;
+}
+.blockImgRestaurants a {
+  text-decoration: none;
+  color: #000;
+}
+.blockImgRestaurants a img {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  max-height: 180px;
+  object-fit: cover;
+}
+
+.FigureHeart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FigureResto {
+  font-size: x-large;
+}
+
+.Nouveau p {
+  display: flex;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 20px;
+  height: 28px;
+  background-color: #99E2D0;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #3c5952;
+  width: auto;
+  object-fit: fill;
+  border-radius: 5px;
+}
+
+/*FOOTER*/
+.footer {
+  padding: 10px;
+  background-color: #494949;
+  color: white;
+}
+
+.LogoFooter img {
+  padding: 5px;
+  padding-top: 20px;
+  height: 20px;
+  width: auto;
+}
+
+.LogoHead-menu {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 10px 5px 5px #cecece;
+  padding: 15px;
+}
+.LogoHead-menu i {
+  display: flex;
+  align-items: center;
+  color: red;
+  font-size: x-large;
+}
+.LogoHead-menu img {
+  width: 170px;
+  height: auto;
+}
+
+.imgMenu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.imgMenu img {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.BlockFonctionnement-Menu {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin-top: -25px;
+  position: relative;
+  background-color: #b8b4b4;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.titre-menu {
+  display: flex;
+  flex-direction: row;
+}
+.titre-menu i {
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+  font-size: x-large;
+}
+
+.menu-general {
+  background-color: #b8b4b4;
+}
+
+.vignette-animation {
+  display: flex;
+  margin: 10px;
+  padding-left: 10px;
+  background-color: white;
+  border-radius: 20px;
+  max-width: 490px;
+  transform: scale(1);
+}
+.vignette-animation .price {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 250px;
+  color: blue;
+}
+
+.h3title {
+  text-align: center;
+}

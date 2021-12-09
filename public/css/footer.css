@@ -1,0 +1,13 @@
+/*FOOTER*/
+.footer {
+  padding: 10px;
+  background-color: #494949;
+  color: white;
+}
+
+.LogoFooter img {
+  padding: 5px;
+  padding-top: 20px;
+  height: 20px;
+  width: auto;
+}

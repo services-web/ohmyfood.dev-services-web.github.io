@@ -1,0 +1,256 @@
+                  
+                  
+/*Loader*/
+
+.loader {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: $colour-background-loader;
+    animation: loader 5000ms forwards;
+    z-index: 10;
+}
+
+/*Animation loader*/
+
+@keyframes loader {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        z-index:-10;  
+
+    
+    }
+}
+
+.loader__animation--1 {
+    border-left: 20px solid $colour-background;
+    border-right: 20px solid $colour-background;
+    border-top: 20px solid $colour-background;
+    border-bottom: 20px solid $colour-primary;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    animation: spin 3s linear forwards;
+
+    /*centrer*/
+
+    margin: auto;
+    position: absolute;
+    top:0px;
+    right:0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.loader__animation--2 {
+    border-left: 20px solid $colour-background;
+    border-right: 20px solid $colour-background;
+    border-top: 20px solid $colour-secondary;
+    border-bottom: 20px solid $colour-background;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    animation: spin 6s linear forwards;
+
+    /*centrer*/
+
+    margin: auto;
+    position: absolute;
+    top:0px;
+    right:0px;
+    bottom: 0px;
+    left: 0px;
+}
+.loader__animation--3 {
+    border-left: 20px solid  $colour-background;
+    border-right: 20px solid $colour-tercary;
+    border-top: 20px solid $colour-background;
+    border-bottom: 20px solid $colour-background;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 10s linear forwards;
+
+    /*centrer*/
+
+    margin: auto;
+    position: absolute;
+    top:0px;
+    right:0px;
+    bottom: 0px;
+    left: 0px;
+}
+.loader__animation--4 {
+    border-left: 20px solid  $colour-background;
+    border-right: 20px solid $colour-tercary;
+    border-top: 20px solid $colour-secondary;
+    border-bottom: 20px solid $colour-primary;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 5s linear forwards;
+
+    /*centrer*/
+
+    margin: auto;
+    position: absolute;
+    top:0px;
+    right:0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+/*Animation-loader*/
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        opacity: 0;
+    }
+}
+
+
+                  /*  RESERVATION */
+                  .h3title  {
+                    text-align: center;
+                    font-family: $fontfamily-principal ;
+                   
+                        
+                }
+               
+
+                  .BlockReservation {
+                    font-family: $fontfamily-principal;
+                    background-color: $colour-blockReservation;
+                    text-align: center;
+                    padding: 50px;
+                      
+                }
+                .BlockReservation p {
+                    color: $fontfamily-reservation;
+                }
+                
+                                /*  FONCTIONNEMENT  */
+                
+                .BlockFonctionnement {
+                        font-family: $fontfamily-principal;
+                        padding-top: 50px;
+                        padding-left: 20px;
+                        padding-bottom: 20px;
+                        background-color:$colour-background;
+
+                        @media screen and (min-width: 1000px){
+                            display: flex;
+                            justify-content: space-between;
+                            h1 {
+                                margin-right: 20px;
+                            }
+                            
+                        }
+                        
+                        
+                                & a {
+                                    text-decoration: none;
+                                    color:black;
+                                   }
+                                  
+                                   
+                                }
+    
+                                
+                
+                
+                                /*     RESTAURANT */
+                
+                 
+                 
+                .blockrestaurants {
+                    font-family: $fontfamily-principal;
+                    padding-top: 30px;
+                    background-color: rgb(243, 243, 243);
+
+                    @media screen and (min-width: 1000px){
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        
+                        
+                        
+                    }
+                        & h1{
+                            padding: 20px;
+
+                            @media screen and (min-width: 1000px){
+                                width: 100%;
+                                
+                            }
+                                    }
+                                }
+                    
+                .blockImgRestaurants {
+                    margin: 20px;
+                    border-radius: 20px;
+                    background-color: white;
+                    box-shadow:  5px 5px 5px $colour-boxShadow;
+                        & a {
+                            text-decoration: none;
+                            color: #000;
+                        
+                        & img {
+                            width: 100%;
+                            border-radius: 20px 20px 0px 0px;
+                            max-height: 180px;
+                            object-fit: cover;
+                
+                    }
+                                }}
+                        
+                        
+                .FigureHeart{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                                    
+                        }
+                        
+                .FigureResto{
+                    font-size: x-large;
+                                }
+                
+
+                                
+                .Nouveau{
+                    display: flex;
+                    position: absolute;
+                    
+                    p{
+                        display: flex;
+                        position: absolute;
+                        padding-top: 10px;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        margin-left: 17rem;
+                        color: $colour-fontfamily-nouveau;
+                        height: 28px;
+                        background-color: $colour-tercary;
+                        border-radius: 5px;
+
+                        @media screen and (min-width: 1000px){
+                        display: none;
+                        
+                        }
+                    }
+
+                                }
+                       
+                        

@@ -1,0 +1,72 @@
+.LogoHead-menu {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 10px 5px 5px #cecece;
+  padding: 15px;
+}
+.LogoHead-menu i {
+  display: flex;
+  align-items: center;
+  color: red;
+  font-size: x-large;
+}
+.LogoHead-menu img {
+  width: 170px;
+  height: auto;
+}
+
+.imgMenu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.imgMenu img {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.BlockFonctionnement-Menu {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin-top: -25px;
+  position: relative;
+  background-color: #b8b4b4;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.titre-menu {
+  display: flex;
+  flex-direction: row;
+}
+.titre-menu i {
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+  font-size: x-large;
+}
+
+.menu-general {
+  background-color: #b8b4b4;
+}
+
+.vignette-animation {
+  display: flex;
+  margin: 10px;
+  padding-left: 10px;
+  background-color: white;
+  border-radius: 20px;
+  max-width: 490px;
+  transform: scale(1);
+}
+.vignette-animation .price {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 250px;
+  color: blue;
+}

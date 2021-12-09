@@ -1,0 +1,14 @@
+.LogoHeart {
+             font-size: x-large;
+             padding-right: 29px;
+                & :hover{
+                    content: "\f004";
+                    font-weight: bold;
+                    background: linear-gradient(120deg,$colour-secondary 0%,$colour-primary 100%);
+                    background-clip: border-box;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    transition: 1s ease-out;
+                }
+                
+            }
