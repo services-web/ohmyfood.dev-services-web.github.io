@@ -104,7 +104,7 @@ span.logobutton {
   font-size: x-large;
   padding-right: 29px;
 }
-.LogoHeart :hover {
+.LogoHeart :hover, .LogoHeart :active {
   content: "\f004";
   font-weight: bold;
   background: linear-gradient(120deg, #FF79DA 0%, #9356DC 100%);
