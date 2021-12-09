@@ -474,7 +474,7 @@ span.logobutton {
   max-width: none;
   height: 80px;
   box-shadow: 10px 5px 5px #cecece;
-  margin: 30px;
+  margin: 20px;
   padding-left: 10px;
   border-radius: 20px;
   display: flex;
@@ -496,6 +496,7 @@ span.logobutton {
 }
 .vignette__general-1:hover .vignette__general__animation__confirmation {
   margin-right: 0px;
+  min-width: 90px;
   transition: margin-right 0.5s;
 }
 .vignette__general-1:hover .vignette-text {
