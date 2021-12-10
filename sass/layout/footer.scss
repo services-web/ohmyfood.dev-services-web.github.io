@@ -2,24 +2,26 @@
  
  
  
-                                       .footer {
-                                        @include font-f-footer;
-                                        padding: 30px;
-                                        & .menu {
-                                            line-height:9px;
-                                        }
-                                        
-
-                                    }
+.footer {
+    @include font-f-footer;
+    padding: 30px;
+        & .menu {
+            line-height:9px;
+}
+        & a {
+            text-decoration: none;
+            color: $colour-fontfamilyWhite;
+}
+        }
                                     
-                                    .LogoFooter img {
-                                        padding: 5px;
-                                        padding-top: 20px;
-                                        height: 20px;
-                                        width: auto;
-                                    }
-                                    .menu i{
-                                        min-width: 20px;
-                                        line-height:9px;
-                                    }
+.LogoFooter img {
+    padding: 5px;
+    padding-top: 20px;
+    height: 20px;
+    width: auto;
+}
+.menu i{
+    min-width: 20px;
+    line-height:9px;
+}
                                     
