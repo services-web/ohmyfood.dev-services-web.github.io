@@ -4,7 +4,7 @@
                 & :hover, :active{
                     content: "\f004";
                     font-weight: bold;
-                    background: linear-gradient(120deg,$colour-secondary 0%,$colour-primary 100%);
+                    background: linear-gradient($colour-secondary ,$colour-primary );
                     background-clip: border-box;
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;

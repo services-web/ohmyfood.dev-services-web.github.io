@@ -10,6 +10,10 @@
   border: none;
   padding-left: 20px;
   padding-right: 20px;
+  &:hover{
+    box-shadow: 5px 5px 5px $colour-boxShadow-dark;
+    transition: box-shadow 0.5s ease-in-out;
+  }
 
 }       
                /*   Boutons fonctionnement   */
@@ -23,8 +27,12 @@
     border-radius: 20px;
     height: 70px;
     box-shadow: 5px 5px 10px $colour-boxShadow;
+    
        &:hover{
            background-color: 	$colour-secondary-opacity;
+           box-shadow: 5px 5px 10px $colour-boxShadow-dark;
+           transition: box-shadow 0.3s ease-in-out;
+
            
    }
 }

@@ -30,6 +30,10 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
+.BlockReservation button:hover {
+  box-shadow: 5px 5px 5px #b6b6b6;
+  transition: box-shadow 0.5s ease-in-out;
+}
 
 /*   Boutons fonctionnement   */
 .btn--fonctionnement {
@@ -44,6 +48,8 @@ body {
 }
 .btn--fonctionnement:hover {
   background-color: rgba(255, 121, 218, 0.2);
+  box-shadow: 5px 5px 10px #b6b6b6;
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .btn--fonctionnement i {
@@ -107,7 +113,7 @@ span.logobutton {
 .LogoHeart :hover, .LogoHeart :active {
   content: "\f004";
   font-weight: bold;
-  background: linear-gradient(120deg, #FF79DA 0%, #9356DC 100%);
+  background: linear-gradient(#FF79DA, #9356DC);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
