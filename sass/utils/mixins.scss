@@ -1,75 +1,75 @@
-  /*font family*/
-  
-  @mixin Title-menu {
-    font-family: 'Roboto-Thin', sans-serif;
-    font-size: x-large;
-      
-  }
-     
-  @mixin Vignette-menu {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-family: 'Roboto-Regular', sans-serif;
-      
-  }
+/*font family*/
+
+@mixin Title-menu {
+  font-family: "Roboto-Thin", sans-serif;
+  font-size: x-large;
+}
+
+@mixin Vignette-menu {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "Roboto-Regular", sans-serif;
+}
 
 @mixin vignette-descrition {
-
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-family: 'Roboto-Thin', sans-serif;
-    font-size: small;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "Roboto-Thin", sans-serif;
+  font-size: small;
 }
 
 @mixin font-f-footer {
-    padding: 10px;
-    background-color: rgb(73, 73, 73);
-    color: white;
-    font-family: 'Roboto-Regular', sans-serif;
+  padding: 10px;
+  background-color: rgb(73, 73, 73);
+  color: white;
+  font-family: "Roboto-Regular", sans-serif;
 }
 
 /*Animation*/
 
-@mixin animation-charging{
-
-  .vignette__general-1:nth-child(2){
+@mixin animation-charging {
+  .vignette__general-1:nth-child(2) {
     animation: fadein 2s;
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-  }}}
-.vignette__general-1:nth-child(3){
-  animation: fadein 3s;
-@keyframes fadein {
-  from {
-      opacity:0;
-  }
-  to {
-      opacity:1;
-  }}}
-  .vignette__general-1:nth-child(4){
-    animation: fadein 4s;
-  @keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }}}
-    .vignette__general-1:nth-child(5){
-      animation: fadein 5s;
     @keyframes fadein {
       from {
-          opacity:0;
+        opacity: 0;
       }
       to {
-          opacity:1;
-      }}}
-
+        opacity: 1;
+      }
+    }
+  }
+  .vignette__general-1:nth-child(3) {
+    animation: fadein 3s;
+    @keyframes fadein {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  }
+  .vignette__general-1:nth-child(4) {
+    animation: fadein 4s;
+    @keyframes fadein {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  }
+  .vignette__general-1:nth-child(5) {
+    animation: fadein 5s;
+    @keyframes fadein {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  }
 }
-  
-
-

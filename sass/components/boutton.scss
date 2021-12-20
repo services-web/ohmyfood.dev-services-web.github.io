@@ -1,5 +1,4 @@
-
- .BlockReservation button{
+.BlockReservation button {
   height: 60px;
   width: auto;
   color: white;
@@ -10,69 +9,66 @@
   border: none;
   padding-left: 20px;
   padding-right: 20px;
-  &:hover{
+  &:hover {
     box-shadow: 5px 5px 5px $colour-boxShadow-dark;
     transition: box-shadow 0.5s ease-in-out;
   }
-
-}       
-               /*   Boutons fonctionnement   */
-
-.btn--fonctionnement{
-    display: flex;
-    background-color: $colour-background-loader;
-    max-width: 500px;
-    margin-top: 20px;
-    margin-right: 20px;
-    border-radius: 20px;
-    height: 70px;
-    box-shadow: 5px 5px 10px $colour-boxShadow;
-    
-       &:hover{
-           background-color: 	$colour-secondary-opacity;
-           box-shadow: 5px 5px 10px $colour-boxShadow-dark;
-           transition: box-shadow 0.3s ease-in-out;
-
-           
-   }
 }
-.btn--fonctionnement i{
-  color:$fontfamily-reservation;
+/*   Boutons fonctionnement   */
+
+.btn--fonctionnement {
+  display: flex;
+  background-color: $colour-background-loader;
+  max-width: 500px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  height: 70px;
+  box-shadow: 5px 5px 10px $colour-boxShadow;
+
+  &:hover {
+    background-color: $colour-secondary-opacity;
+    box-shadow: 5px 5px 10px $colour-boxShadow-dark;
+    transition: box-shadow 0.3s ease-in-out;
+  }
 }
-.btn--fonctionnement i:hover{
+.btn--fonctionnement i {
+  color: $fontfamily-reservation;
+}
+.btn--fonctionnement i:hover {
   color: $colour-primary;
 }
-span.un{
-    position:absolute;
-    color: white;
-    margin-top: 18px;
-    margin-left: -10px;
-    text-align: center;
-    padding-top:2px ;
-    
-    padding-left: 8px;
-    padding-right: 8px;
-    font-size: x-large;
-    background-color: #9356DC;
-    border-radius: 20px;
+span.un {
+  position: absolute;
+  color: white;
+  margin-top: 18px;
+  margin-left: -10px;
+  text-align: center;
+  padding-top: 2px;
+
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: x-large;
+  background-color: #9356dc;
+  border-radius: 20px;
 }
 
 span.logobutton {
-    font-size: x-large;
-    padding: 30px;
-    display: flex;
+  font-size: x-large;
+  padding: 30px;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .textbutton {
-    font-size: x-large;
-    display: flex;
+  font-size: x-large;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.btn__command{
+.btn__command {
   display: flex;
   justify-content: center;
   background: linear-gradient($colour-secondary, $colour-primary);
@@ -80,12 +76,11 @@ span.logobutton {
   margin-right: 20%;
   margin-bottom: 20px;
   border-radius: 40px;
-  
-  &__text{
+
+  &__text {
     color: white;
     text-decoration: none;
     font-size: x-large;
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: "Roboto", sans-serif;
   }
 }

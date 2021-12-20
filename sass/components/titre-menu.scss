@@ -1,25 +1,25 @@
-.titre__menu-1{
+.titre__menu-1 {
     padding-left: 40px;
-        p{
-            @include Title-menu;
+    p {
+        @include Title-menu;
     }
-        .border-title{
-            margin-top: -15px;
-            height: 5px;
-            width: 50px;
-            background-color: $colour-tercary;
+    .border-title {
+        margin-top: -15px;
+        height: 5px;
+        width: 50px;
+        background-color: $colour-tercary;
     }
 }
 .titre-menu {
     display: flex;
     flex-direction: row;
-    font-family: 'Shrikhand', cursive;
+    font-family: "Shrikhand", cursive;
     flex-wrap: nowrap;
 
-        & i{
-            display: flex;
-            align-items: center;
-            padding-left: 50px;
-            font-size: xx-large;
+    & i {
+        display: flex;
+        align-items: center;
+        padding-left: 50px;
+        font-size: xx-large;
     }
 }

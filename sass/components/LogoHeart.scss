@@ -1,15 +1,14 @@
 .LogoHeart {
-             font-size: x-large;
-             padding-right: 29px;
-                & :hover, :active{
-                    content: "\f004";
-                    font-weight: bold;
-                    background: linear-gradient($colour-secondary ,$colour-primary );
-                    background-clip: border-box;
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    transition: 1s ease-out;
-                    
-                }
-                
-            }
+    font-size: x-large;
+    padding-right: 29px;
+    & :hover,
+    :active {
+        content: "\f004";
+        font-weight: bold;
+        background: linear-gradient($colour-secondary, $colour-primary);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: 1s ease-out;
+    }
+}

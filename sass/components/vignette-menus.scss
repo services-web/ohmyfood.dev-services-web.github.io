@@ -1,5 +1,4 @@
-.vignette__general-1{
-       
+.vignette__general-1 {
     background-color: $colour-fontfamilyWhite;
     max-width: none;
     height: 80px;
@@ -9,106 +8,94 @@
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
-    overflow: hidden; 
-    
+    overflow: hidden;
 
-
-
-        .title-menu{
-            width: 100%;
+    .title-menu {
+        width: 100%;
     }
 
-            &__animation {
-                width: 100%;
-                padding-right: 5px;
-                border-radius: 5px;
-                display: flex;
-                justify-content: space-between;
+    &__animation {
+        width: 100%;
+        padding-right: 5px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
 
-                p {
-                    font-size: 19px;
-    }        
-}
-
-                    &:hover {
-                        .vignette__general__animation__confirmation {
-                            margin-right: 0px;
-                            min-width: 90px;
-                            transition: margin-right 0.5s;
-    }
-
-    .vignette-text {
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
-
-           p {
-                text-overflow: ellipsis;
-                white-space: nowrap;
-                overflow: hidden;
-            
+        p {
+            font-size: 19px;
         }
     }
 
-    .validate-icone {
-        transform: rotate(360deg);
+    &:hover {
+        .vignette__general__animation__confirmation {
+            margin-right: 0px;
+            min-width: 90px;
+            transition: margin-right 0.5s;
+        }
+
+        .vignette-text {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+
+            p {
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+        }
+
+        .validate-icone {
+            transform: rotate(360deg);
+        }
     }
-
 }
-
-
-}
-
-
 
 .vignette__general__animation__confirmation {
-background-color: $colour-tercary;
-min-width: 4rem;
-display: flex;
-align-items: center;
-justify-content: center;
-margin-right: -64px;
+    background-color: $colour-tercary;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -64px;
 }
 
 .validate-icone {
-width: 1.6rem;
-height: 1.6rem;
-border-radius: 40px;
-background: #FFF;
-color: $colour-tercary;
-display: flex;
-align-items: center;
-margin-right: 30%;
-transition: transform 0.5s;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 40px;
+    background: #fff;
+    color: $colour-tercary;
+    display: flex;
+    align-items: center;
+    margin-right: 30%;
+    transition: transform 0.5s;
 
-.fas {
-    margin-left: 4px;
-}
-}
-
-
-.price {
-display: flex;
-justify-content: flex-end;
-align-items: flex-end;
-align-self: flex-end;
-font-weight: bold;
-font-family: 'Roboto', sans-serif;
-}
-
-.vignette-text {
-width: 230px;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-text-overflow: ellipsis;
-
-p {
-    @include Vignette-menu;
-    span.vignette-description{
-        @include vignette-descrition;
+    .fas {
+        margin-left: 4px;
     }
 }
 
+.price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
 
+.vignette-text {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-overflow: ellipsis;
+
+    p {
+        @include Vignette-menu;
+        span.vignette-description {
+            @include vignette-descrition;
+        }
+    }
 }
